@@ -8,6 +8,10 @@ Clone this repo and send a pull request. Please ensure a discussion happens and 
 
 All pull requests must be reviewed by at least one team member before merging and cross-project standards and guides should have a reviewer from a different project.
 
+## Projects
+
+* [Sirius](projects/sirius/README.md)
+
 ## Licence
 
 [MIT](https://opensource.org/licenses/MIT). Copyright (c) 2018 Crown copyright (Ministry of Justice).
