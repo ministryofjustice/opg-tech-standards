@@ -57,15 +57,6 @@ An SEP can be moved into the completed state and archived once all work on it is
 An SEP can be moved into abandoned from the draft state if work on it stops. If someone wishes to pick it up again, it can be moved back into the draft state.
 
 ## Currently active SEP's
-1	SEP 1 - Deprecate Membrane	Draft
-2	SEP 2 - Upgrade Sirius to PHP 7	
-Completed
-
-3	SEP 3 - Upgrade Sirius to Zend framework 3	Draft
-4	SEP 4 - Remove forked version of JMS serialiser	Draft
-5	SEP 5 - Remove Zend rest module	Draft
-6	SEP 6 - Improve API error reporting + validation	Draft
-7	SEP 7 - Replace timeline events system	Draft
 
 | SEP | Status |
 |:-------------|:-------------:|
@@ -73,6 +64,6 @@ Completed
 | [SEP 2 - Upgrade Sirius to PHP 7](SEP-002-upgrade-sirius-to-php7.md) | Completed |
 | [SEP 3 - Upgrade Sirius to Zend framework 3](SEP-003-upgrade-sirius-to-zend-framework-3.md) | Draft |
 | [SEP 4 - Remove forked version of JMS serialiser](SEP-004-remove-forked-version-of-jms-serialiser.md) | In Progress |
-| [SEP 5 - Remove Zend rest module](SEP-005-remove-zend-rest-module) | Accepted |
+| [SEP 5 - Remove Zend rest module](SEP-005-remove-zend-rest-module) | Under Consideration |
 | [SEP 6 - Improve API error reporting + validation](SEP-006-improve-api-error-reporting-and-validation.md) | Draft |
 | [SEP 7 - Replace timeline events system](SEP-007-replace-timeline-events-system.md) | Draft |
