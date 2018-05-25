@@ -68,7 +68,11 @@ Completed
 7	SEP 7 - Replace timeline events system	Draft
 
 | SEP | Status |
-|:-------------:|:-------------:|
-| 1   | Draft |
-| 2   | Completed |
-| 3   | Draft |
+|:-------------|:-------------:|
+| [SEP 1 - Deprecate Membrane](SEP-001-deprecate-membrane.md) | Draft |
+| [SEP 2 - Upgrade Sirius to PHP 7](SEP-002-upgrade-sirius-to-php7.md) | Completed |
+| [SEP 3 - Upgrade Sirius to Zend framework 3](SEP-003-upgrade-sirius-to-zend-framework-3.md) | Draft |
+| [SEP 4 - Remove forked version of JMS serialiser](SEP-004-remove-forked-version-of-jms-serialiser.md) | In Progress |
+| [SEP 5 - Remove Zend rest module](SEP-005-remove-zend-rest-module) | Accepted |
+| [SEP 6 - Improve API error reporting + validation](SEP-006-improve-api-error-reporting-and-validation.md) | Draft |
+| [SEP 7 - Replace timeline events system](SEP-007-replace-timeline-events-system.md) | Draft |
