@@ -1,0 +1,1 @@
+Accepted cross-project standards.

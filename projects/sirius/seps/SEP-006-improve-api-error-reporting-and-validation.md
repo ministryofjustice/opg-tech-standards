@@ -1,0 +1,7 @@
+# SEP 6 - Improve API error reporting + validation
+
+## Introduction
+
+We recently completed work to improve the format of the errors responses being produced by the backend API and have adopted the standards compliant https://tools.ietf.org/html/draft-nottingham-http-problem-06 HTTP problem format for messages returned. We have used the implementation provided by Apigility, the official Zend framework module for working with API's. The module will automatically convert any exceptions thrown inside the app into suitable error messages, however it also provides tools to produce API Problem responses for any payload which fails validation or has other issues during processing. 
+
+Our app currently handles issues in validation or business logic by throwing Symfony HTTP exception classes this is far from ideal in a Zend based app and is not very easily integrated with Apigility.  This Sirius Enhancement Proposal recommends removing the Symfony exceptions from the application entirely and move to returning API Problem responses instead. In addition it sets out a proposal for adding validation errors to the API Problem payload so that frontend can use them to display helpful messages to the user.
